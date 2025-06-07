@@ -1,75 +1,32 @@
-# Prerequisites
-*.d
+# Ignore build directories 
+/build/
 
-# Compiled Object files
-*.slo
-*.lo
+# Ignore all .o object files 
 *.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore log files
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Ignore temporary files
+*.tmp
+*.temp
 
-# Fortran module files
-*.mod
-*.smod
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Ignore .vscode directory (configuration files for Visual Studio Code)
+/.vscode/
 
-# Executables
-*.exe
-*.out
-*.app
+# Ignore Vim swap files
+*.swo
+*.swp
 
-# Project Files
-.vs/*
-# Prerequisites
-*.d
+# Ignore backup files
+*.bak
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
 
-# Precompiled Headers
-*.gch
-*.pch
+# Ignore archive files like zip, rar, tar.gz, tar.bz2
+*.zip
+*.rar
+*.tar.gz
+*.tar.bz2
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# Project Files
-.vs/*
-out/*
-CMakeSettings.json
-out/*
-CMakeSettings.json
 
